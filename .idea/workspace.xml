@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11f7e3e-0147-4590-9d96-e699c9d58759" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/AvaliacaoFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Matricula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoUpdateForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaUpdateForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/MatriculaForm.java" afterDir="false" />
+    <list default="true" id="b11f7e3e-0147-4590-9d96-e699c9d58759" name="Changes" comment="criadas entidades(model) e formularios(DTO)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/infra/deserializer/LocalDateDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/infra/deserializer/LocalDateTimeDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/infra/serializer/LocalDateSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/infra/serializer/LocalDateTimeSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/infra/util/JavaTimeUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,11 +70,23 @@
       <updated>1691299701443</updated>
       <workItem from="1691299702752" duration="1494000" />
       <workItem from="1691348742025" duration="628000" />
-      <workItem from="1691518812493" duration="1663000" />
+      <workItem from="1691518812493" duration="2665000" />
     </task>
+    <task id="LOCAL-00001" summary="criadas entidades(model) e formularios(DTO)">
+      <created>1691523993391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691523993391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="criadas entidades(model) e formularios(DTO)" />
+    <option name="LAST_COMMIT_MESSAGE" value="criadas entidades(model) e formularios(DTO)" />
   </component>
 </project>
