@@ -19,7 +19,9 @@ public class AlunoController {
 
     @PostMapping
     public Aluno create(@Valid @RequestBody AlunoForm form){
+        //@Valid habilita a validação dos parametros(restricoes) do form
         return service.create(form);
+
     }
 
     @GetMapping

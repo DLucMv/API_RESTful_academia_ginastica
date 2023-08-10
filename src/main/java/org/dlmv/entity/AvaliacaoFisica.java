@@ -19,7 +19,7 @@ public class AvaliacaoFisica {
     private Long id;
 
     @ManyToOne(cascade = CascadeType.ALL) //Alterações feitas em avaliacaoFisica se reflete em aluno
-    @JoinColumn(name = "aluno_id") //Contem a ForeingKey
+    @JoinColumn(name = "aluno_id") //Contem a coluna de ForeingKey
     private Aluno aluno;
 
     private LocalDateTime dataDaAvaliacao = LocalDateTime.now();

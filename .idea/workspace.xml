@@ -4,25 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11f7e3e-0147-4590-9d96-e699c9d58759" name="Changes" comment="configuracao inicial DB e anotacoes das entidades">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/controller/AlunoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/controller/AvaliacaoFisicaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/repository/AlunoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/repository/AvaliacaoFisicaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/repository/MatriculaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/IAlunoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/IAvaliacaoFisicaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/IMatriculaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/impl/AlunoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/impl/AvaliacaoFisicaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/impl/MatriculaServiceImpl.java" afterDir="false" />
+    <list default="true" id="b11f7e3e-0147-4590-9d96-e699c9d58759" name="Changes" comment="primeiras implementacoes do CRUD">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/controller/MatriculaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/controller/AlunoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/controller/AlunoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/AvaliacaoFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/AvaliacaoFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Matricula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoUpdateForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoUpdateForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaUpdateForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaUpdateForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/MatriculaForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/MatriculaForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/repository/MatriculaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/repository/MatriculaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/service/impl/MatriculaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/impl/MatriculaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +119,8 @@
       <workItem from="1691299702752" duration="1494000" />
       <workItem from="1691348742025" duration="628000" />
       <workItem from="1691518812493" duration="5892000" />
-      <workItem from="1691629696879" duration="5210000" />
+      <workItem from="1691629696879" duration="5926000" />
+      <workItem from="1691695315041" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="criadas entidades(model) e formularios(DTO)">
       <created>1691523993391</created>
@@ -147,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691527103019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="primeiras implementacoes do CRUD">
+      <created>1691639246651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691639246651</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +160,7 @@
     <MESSAGE value="criadas entidades(model) e formularios(DTO)" />
     <MESSAGE value="infra" />
     <MESSAGE value="configuracao inicial DB e anotacoes das entidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuracao inicial DB e anotacoes das entidades" />
+    <MESSAGE value="primeiras implementacoes do CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="primeiras implementacoes do CRUD" />
   </component>
 </project>

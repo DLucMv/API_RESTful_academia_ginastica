@@ -19,7 +19,7 @@ public class Matricula {
     private Long id;
 
     @OneToOne(cascade = CascadeType.ALL) //Exclusão da matrícula implica na exclusão do aluno
-    @JoinColumn(name = "aluno_id") //Contem a ForeingKey
+    @JoinColumn(name = "aluno_id") //Contem a Coluna de ForeingKey
     private Aluno aluno;
 
     private LocalDateTime dataDaMatricula = LocalDateTime.now();

@@ -14,7 +14,7 @@ import java.util.List;
 @Data //Lombok (getters, seters, ...)
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity //Relativo a persistenci no DB
+@Entity //Relativo a persistencia no DB
 @Table(name = "tb_alunos")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Aluno {
@@ -33,6 +33,6 @@ public class Aluno {
     private LocalDate dataDeNascimento;
 
     @OneToMany(mappedBy = "aluno", fetch = FetchType.LAZY) //Cardinalidade
-    @JsonIgnore
+    @JsonIgnore //Ignorando eventuais exceptions do Json
     private List<AvaliacaoFisica> avaliacoes = new ArrayList<>();
 }
