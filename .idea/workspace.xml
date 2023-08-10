@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11f7e3e-0147-4590-9d96-e699c9d58759" name="Changes" comment="infra">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b11f7e3e-0147-4590-9d96-e699c9d58759" name="Changes" comment="configuracao inicial DB e anotacoes das entidades">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/controller/AlunoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/controller/AvaliacaoFisicaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/repository/AlunoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/repository/AvaliacaoFisicaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/repository/MatriculaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/IAlunoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/IAvaliacaoFisicaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/IMatriculaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/impl/AlunoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/impl/AvaliacaoFisicaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/service/impl/MatriculaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/AvaliacaoFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/AvaliacaoFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/Matricula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoUpdateForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AlunoUpdateForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaUpdateForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/AvaliacaoFisicaUpdateForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/MatriculaForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dlmv/entity/form/MatriculaForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,27 +58,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "5e8d70f1087c8b95f652a214f90c8364",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5e8d70f1087c8b95f652a214f90c8364&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dlmv.Main" />
@@ -110,7 +123,8 @@
       <updated>1691299701443</updated>
       <workItem from="1691299702752" duration="1494000" />
       <workItem from="1691348742025" duration="628000" />
-      <workItem from="1691518812493" duration="4920000" />
+      <workItem from="1691518812493" duration="5892000" />
+      <workItem from="1691629696879" duration="5210000" />
     </task>
     <task id="LOCAL-00001" summary="criadas entidades(model) e formularios(DTO)">
       <created>1691523993391</created>
@@ -126,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691524889457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="configuracao inicial DB e anotacoes das entidades">
+      <created>1691527103019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691527103019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criadas entidades(model) e formularios(DTO)" />
     <MESSAGE value="infra" />
-    <option name="LAST_COMMIT_MESSAGE" value="infra" />
+    <MESSAGE value="configuracao inicial DB e anotacoes das entidades" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuracao inicial DB e anotacoes das entidades" />
   </component>
 </project>
