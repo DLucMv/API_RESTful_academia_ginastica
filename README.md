@@ -19,7 +19,7 @@ O projeto foi desenvolvido como requisito para a obtenção do certificade de co
 
 1. Clone este repositório: `git clone https://github.com/DLucMv/API_RESTful_academia_ginastica.git`
 2. Entre no diretório do projeto: `cd API_RESTful_academia_ginastica`
-3. Configure as informações do banco de dados no arquivo `application.properties`
+3. Configure as informações do banco de dados no arquivo `application.yml`
 4. Execute o aplicativo: `./mvnw spring-boot:run`
 
 ## Contribuição
@@ -38,4 +38,4 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 
 - Nome: Davison Lucas
 - Email: dlucasmv@gmail.com
-- LinkedIn: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/seuperfil/)
+- LinkedIn: [Meu Perfil no Linkedin](https://www.linkedin.com/in/davisonlucas/)
